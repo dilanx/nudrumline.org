@@ -249,7 +249,7 @@ Error generating stack: `+l.message+`
   white-space: nowrap;
 `;function Ec({children:e,captain:n,number:t}){return U(Cg,{children:[t&&S(Eg,{children:t}),S(_g,{children:e}),n&&S(vp,{title:"Captain"})]})}const Ag=R.div`
   background-color: white;
-  padding: 32px 64px;
+  padding: 32px 16px;
   border-radius: 16px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   text-align: center;
@@ -259,16 +259,15 @@ Error generating stack: `+l.message+`
 
   @media ${pn.desktop} {
     margin: 0 64px;
+    padding: 32px 64px;
   }
 `,Tg=R.h2`
   margin: 0;
   font-weight: 600;
 `,Ng=R.div`
   display: flex;
-  flex-direction: column;
 
   @media ${pn.desktop} {
-    flex-direction: row;
     gap: 64px;
   }
 `,_c=R.div`
