@@ -226,8 +226,9 @@ Error generating stack: `+l.message+`
   svg {
     width: 64px;
     height: 64px;
+    stroke-width: 4px;
   }
-`;function kg(){return U(vg,{children:[S(yg,{children:"NORTHWESTERN UNIVERSITY"}),S(xg,{children:"DRUMLINE"}),U(wg,{children:[S(zo,{title:"Pride",icon:Z1,subtitle:"noun",children:"a consciousness of what befits oneself or one's position; self-respect; self-esteem"}),S(zo,{title:"Victory",icon:vp,subtitle:"noun",children:"triumph or ultimate success, in any form of contest, struggle, or enterprise"}),S(zo,{title:"Honor",icon:ng,subtitle:"noun",children:"great respect, esteem, or reverebnce received, gained, or given by a person or thing"})]}),S(Sg,{onClick:()=>{window.scrollTo({top:window.innerHeight,behavior:"smooth"})},children:S(ig,{style:{strokeWidth:"4px"}})})]})}const Cg=R.div`
+`;function kg(){return U(vg,{children:[S(yg,{children:"NORTHWESTERN UNIVERSITY"}),S(xg,{children:"DRUMLINE"}),U(wg,{className:"no-scrollbar",children:[S(zo,{title:"Pride",icon:Z1,subtitle:"noun",children:"a consciousness of what befits oneself or one's position; self-respect; self-esteem"}),S(zo,{title:"Victory",icon:vp,subtitle:"noun",children:"triumph or ultimate success, in any form of contest, struggle, or enterprise"}),S(zo,{title:"Honor",icon:ng,subtitle:"noun",children:"great respect, esteem, or reverebnce received, gained, or given by a person or thing"})]}),S(Sg,{onClick:()=>{window.scrollTo({top:window.innerHeight,behavior:"smooth"})},children:S(ig,{})})]})}const Cg=R.div`
   display: flex;
   margin: 8px 0;
   justify-content: center;
