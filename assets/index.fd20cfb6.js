@@ -204,6 +204,7 @@ Error generating stack: `+l.message+`
   align-items: center;
   width: 100%;
   overflow-x: scroll;
+  overflow-y: hidden;
 
   @media ${pn.desktop} {
     justify-content: center;
