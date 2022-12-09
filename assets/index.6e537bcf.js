@@ -490,6 +490,7 @@ Error generating stack: `+l.message+`
 
   a {
     opacity: 0.75;
+    transition: opacity 150ms;
 
     &:hover {
       opacity: 1;
